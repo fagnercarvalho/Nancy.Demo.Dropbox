@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="~/Content/style.css" media="all" rel="stylesheet" />
+    <script src="~/Content/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <p>
+            <input type="file" id="newFile" class="new-file" />
+            <input type="button" id="uploadFile" value="Upload File"/>
+        </p>
+
+        <table class="files">
+            <thead>
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        Modified
+                    </td>
+                    <td>
+                        Type
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody id="content">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

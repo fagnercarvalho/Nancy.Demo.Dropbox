@@ -1,0 +1,18 @@
+﻿.files {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    .files table, th, td {
+        border: 1px solid black;
+    }
+
+.new-file {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    text-align: center;
+}
