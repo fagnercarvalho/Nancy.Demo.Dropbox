@@ -7,7 +7,7 @@
     {
         public static void RequiresDropboxAuthentication(this INancyModule module, IDropNetClient dropNetClient)
         {
-            module.AddBeforeHookOrExecute(SecurityHooks.RequiresDropboxAuthentication(dropNetClient), "A vaga precisa estar disponível.");
+            module.AddBeforeHookOrExecute(SecurityHooks.RequiresDropboxAuthentication(dropNetClient), "Authentication failed.");
         }
     }
 }
